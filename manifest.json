@@ -1,11 +1,16 @@
 {
-  "name": "Hello Extensions",
+  "name": "Draggable Text",
   "description": "set body styles user-select text",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_icon": "user-select-icon-128.jpg"
+  },
+  "icons": {
+    "16":"user-select-icon-16.jpg",
+    "48":"user-select-icon-48.jpg",
+    "128":"user-select-icon-128.jpg"
   },
   "permissions": ["storage","activeTab"],
   "content_scripts": [ {
